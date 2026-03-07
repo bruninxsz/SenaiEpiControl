@@ -1,27 +1,25 @@
 <template>
+    <header>
+        <Header />
+    </header>
     <div class="title">
-        <header>
         <h1>pagina EPIRegister</h1>
-        </header>
     </div>
     <div class="menu">
-        <nav>
-            <ul>
-                <li><router-link to="/">Página Home</router-link></li>
-                <li><router-link to="/Login">Página Login</router-link></li>
-                <li><router-link to="/Activities">Página Activities</router-link></li>
-                <li><router-link to="/Inventory">Página Inventory</router-link></li>
-                <li><router-link to="/EPIRegister">Página EPI Register</router-link></li>
-                <li><router-link to="/Users">Página Home</router-link></li>
-            </ul>
-        </nav>
+        <Menu />
     </div>
-    
 </template>
 
 <script>
+import Menu from '../components/Menu.vue'
+import Header from '../components/Header.vue'
+
 export default {
-    name:'EPIRegister'
+    name: 'Activities',
+    components: {
+        Menu,
+        Header
+    }
 }
 
 </script>

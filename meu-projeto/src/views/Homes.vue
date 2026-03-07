@@ -1,24 +1,54 @@
-<template>
-    <div>
-    <Header/>
-    <div class="title">
-        <h1>pagina Home</h1>
+<template class="scroll-smooth">
+
+    <!--Montando o Header-->
+    <div id="Header" class="flex justify-between px-6 py-6 shadow-md ">
+        <img src="../assets/logo.png" class="w-40 rounded-md hover:scale-105">     <!--LOGO-->
+
+        <router-link to='#Sobre'>
+            <div class="px-2 py-4 text-black hover:text-red-600 hover:scale-[1.02]">Sobre</div>       <!--SOBRE-->
+        </router-link> 
+
+        <router-link to='#Contato'>
+            <div class="px-2 py-4 text-black hover:text-red-600 hover:scale-[1.02]">Contato</div>     <!--CONTATO-->
+        </router-link> 
+
+        <router-link to='Login'>
+            <button class="bg-red-700 px-12 py-4 text-white rounded-md hover:bg-red-800 hover:scale-[1.01]"> <!--BOTÃO LOGIN-->
+                Login
+            </button>
+        </router-link>
     </div>
-    <div class="menu">
-        <nav>
-            <ul>
-                <li><router-link to="/">Página Home</router-link></li>
-                <li><router-link to="/Login">Página Login</router-link></li>
-                <li><router-link to="/Activities">Página Activities</router-link></li>
-                <li><router-link to="/Inventory">Página Inventory</router-link></li>
-                <li><router-link to="/EPIRegister">Página EPI Register</router-link></li>
-                <li><router-link to="/Users">Página Home</router-link></li>
-            </ul>
-        </nav>
+
+    <br><br><br><br><br><br><br>
+
+    <!--Montando o Corpo da Página-->
+    <div class="body">
+        <div class="flex justify-between px-80">
+            <h1>Sistema de Controle de EPIs <br> para Instituições de Ensino</h1>
+            <img src="../assets/Home/Dashboard-example.svg" class="w-[50%] rounded-xl"><br>
+        </div>
+        <div class="flex justify-between px-80">
+            
+        </div>
+
     </div>
-    </div>
+
+
 </template>
+
+
+
+
 
 <script>
 import Header from "../components/Header.vue"
+import Menu from "../components/Menu.vue"
+
+export default {
+    name: 'Homes',
+    components: {
+        Header,
+        Menu
+    }
+}
 </script>
