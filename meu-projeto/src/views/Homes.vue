@@ -25,7 +25,7 @@
     <div class="body">
         <div class="flex justify-between px-80">
             <h1>Sistema de Controle de EPIs <br> para Instituições de Ensino</h1>
-            <img src="../assets/Home/Dashboard-example.svg" class="w-[50%] rounded-xl"><br>
+            <img src="../assets/Home/Dashboard-example.svg" class="w-[50%] rounded-xl"><br> <!--Imaem notebook-->
         </div>
         <div class="flex justify-between px-80">
             
