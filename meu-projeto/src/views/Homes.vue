@@ -26,13 +26,35 @@
     <div class="body">
         <div class="flex justify-between px-80">
             <h1>Sistema de Controle de EPIs <br> para Instituições de Ensino</h1>
-            <img src="../assets/Home/Dashboard-example.svg" class="w-[50%] rounded-xl"><br> <!--Imaem notebook-->
+            <img src="../assets/Home/Dashboard-example.png" class="w-[50%] rounded-xl"><br> <!--Imaem notebook-->
         </div>
         <div class="flex justify-between px-80">
             
         </div>
 
     </div>
+
+    <br><br><br><br><br>
+
+    <div class="flex justify-between px-80"> <!--CARDS-->
+    <div class="flex justify-beetween max-w-10 h-30 p-40 shadow-xl rounded-md bg-white">
+        <div class="flex justify-between">
+             <img src="../assets/Home/Dashboard-example.png" class="w-[50%] rounded-xl">
+        </div>       
+    </div>
+    <div class="flex justify-beetween max-w-10 h-30 p-40 shadow-xl rounded-md bg-white">
+        <div class="flex justify-between">
+            
+        </div>       
+    </div>
+
+    <div class="flex justify-beetween max-w-10 h-30 p-40 shadow-xl rounded-md bg-white">
+        <div class="flex justify-between">
+            
+        </div>       
+    </div>
+    </div>
+
 
 
 </template>
