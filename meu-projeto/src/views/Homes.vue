@@ -19,6 +19,7 @@
         </router-link>
     </div>
 
+    <!-- Mudar quebra de linhas depois-->
     <br><br><br><br><br><br><br>
 
     <!--Montando o Corpo da Página-->
@@ -41,7 +42,7 @@
 
 
 <script>
-import Header from "../components/Header.vue"
+import Header from "../components/Header.vue" 
 import Menu from "../components/Menu.vue"
 
 export default {
